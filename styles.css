@@ -12,18 +12,19 @@ body {
   height: 100vh;
   font-family: 'Roboto', sans-serif;
   position: relative;
+  flex-wrap: wrap;
 }
 
 .info {
   padding: 5px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
   color: #eee;
   font-size: 1.4rem;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  opacity: .7;
+  opacity: .8;
   user-select: none;
 }
 
@@ -33,6 +34,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  flex-basis: 20%;
 }
 
 .col h2 {
@@ -41,7 +43,7 @@ body {
   border-radius: 10px;
   color: #eee;
   text-shadow: 1px 1px 6px #444;
-  
+  user-select: none;
 }
 
 .col h2:hover {
